@@ -12,15 +12,35 @@ header {
     padding: 50px;
 }
 
-button{
+.flex-container {
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row;
+    height:fit-content;
+    align-items: center;
+  }
+
+.top-button{
     display: block;
     color: white;
     background-color: #805215;
     padding: 14px 28px;
     font-size: 16px;
-    text-align: right;
+    text-align: center;
     float: right;
     margin: 5px;
+    border: none;
+}
+
+.block{
+    display: block;
+    color: white;
+    background-color: #805215;
+    padding: 14px 28px;
+    font-size: 16px;
+    text-align: center;
+    position: fixed;
+    margin: 10px;
     border: none;
 }
 
@@ -29,29 +49,48 @@ main{
     background-color: #D4A76A;
     font-size: 15px;
     border: 1px solid #666;
-    padding: 500px 500px;
 }
 
 #left-box {
     background-color: white;
     font-size: 15px;
-    float: left;
-    height: 280px;
-    width: 25%;
+    height: 300px;
+    width: 50em;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
 }
 
 #middle-box {
     background-color: white;
     font-size: 15px;
-    float: left;
-    height: 280px;
-    width: 25%;
+    height: 300px;
+    width: 50em;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
 }
 
 #right-box {
     background-color: white;
     font-size: 15px;
-    float: right;
-    height: 280px;
-    width: 25%;
+    height: 300px;
+    width: 50em;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+#bottom-box {
+    background-color: white;
+    font-size: 15px;
+    height: 350px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
 }

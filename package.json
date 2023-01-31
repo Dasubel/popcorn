@@ -1,0 +1,24 @@
+{
+  "name": "popcorn",
+  "version": "1.0.0",
+  "description": "Recreate the site below ![alt text](https://i.gyazo.com/d515c0431fd1ab46dbd3104623c3f34b.png)",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dasubel/popcorn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dasubel/popcorn/issues"
+  },
+  "homepage": "https://github.com/Dasubel/popcorn#readme",
+  "dependencies": {
+    "live-server": "^1.1.0"
+  }
+}
